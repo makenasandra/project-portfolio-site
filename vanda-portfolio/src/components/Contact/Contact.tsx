@@ -24,7 +24,7 @@ export const Contact = () => {
                         />
                     </Suspense></h3>
                     </div>
-                    <div><a href="mailto:johnmugo006@gmail.com">johnmugo006@gmail.com</a></div>
+                    <div><a href="mailto:makenaatwork@gmail.com">makenaatwork@gmail.com</a></div>
                 </div>
                 
                 <div>

@@ -40,10 +40,11 @@ interface Skill {
 const skills: Skill[] = [ { 
     category: 'Languages', 
     items: [ 
+      { name: 'Javascript', icon: javascript }, 
+      { name: 'Typescript', icon: typescript }, 
         { name: 'C++', icon: cpp }, 
         { name: 'Python', icon: python }, 
-        { name: 'Javascript', icon: javascript }, 
-        { name: 'Typescript', icon: typescript }, 
+       
         ] 
     }, 
     { 
@@ -52,7 +53,7 @@ const skills: Skill[] = [ {
             { name: 'HTML', icon: html }, 
             { name: 'CSS', icon: css }, 
             { name: 'React', icon: react }, 
-            { name: 'Redux', icon: redux } 
+            { name: 'Next.js', icon: redux } 
         ] 
     }, 
     { 
@@ -73,7 +74,7 @@ const skills: Skill[] = [ {
     { category: 'Tools', items: [ 
         { name: 'Git', icon: git }, 
         { name: 'VS Code', icon: vscode }, 
-        { name: 'Adobe Illustrator', icon: adobeIllustrator },
+        // { name: 'Adobe Illustrator', icon: adobeIllustrator },
     ] 
 } ];
 

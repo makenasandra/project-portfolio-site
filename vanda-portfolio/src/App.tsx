@@ -40,13 +40,13 @@ function App() {
       <Suspense fallback={<div>Loading Projects...</div>}>
       <Projects />
       </Suspense>
-      <Services/>
+      {/* <Services/> */}
       <Contact />
     </div>
   )
 }
 
-export default App
+export default App;
 
 
 //      < SplashCursor />
