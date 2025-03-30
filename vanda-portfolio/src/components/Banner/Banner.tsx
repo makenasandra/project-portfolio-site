@@ -114,9 +114,9 @@ export const Banner = ({ splashEffect, toggleEffect }: BannerProps): JSX.Element
                                                                                 pauseBetweenAnimations={1}
                                                                                 /></Suspense></span></h1>
                                     <h1>I'm a <span className="txt-rotate"  data-rotate='["Web Developer", "Designer", "Freelancer", "C++ Developer", "Software Engineer"]'><span className="wrap">{text}</span></span></h1>
-                                    <p><span>Niche : </span> Algorithm Optimization, Data Structures,Design Patterns </p>
-                                    <button onClick={():void => scrollToSection("Contact") }>Lets connect<ArrowRightCircle size={25} /></button>
-                                    <button onClick={toggleEffect}>{ splashEffect ? "Splash Cursor Off" : "Splash Cursor On"}</button>
+                                    {/* <p><span>Niche : </span> Algorithm Optimization, Data Structures,Design Patterns </p> */}
+                                    {/* <button onClick={():void => scrollToSection("Contact") }>Lets connect<ArrowRightCircle size={25} /></button> */}
+                                    {/* <button onClick={toggleEffect}>{ splashEffect ? "Splash Cursor Off" : "Splash Cursor On"}</button> */}
                                 </div>
                             }
                         </TrackVisibility>

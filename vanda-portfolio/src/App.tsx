@@ -16,7 +16,7 @@ import  { useState } from 'react';
 function App() {
 
   const [showExperience, setShowExperience] = useState(false);
-  const [splashEffect, setSplashEffect ] = useState(true);
+  const [splashEffect, setSplashEffect ] = useState(false);
 
   const toggleExperience = () => {
     setShowExperience(!showExperience);
