@@ -37,10 +37,10 @@ function App() {
       <Suspense fallback={<div>Loading Services...</div>}>
       < Skills toggleExperience={toggleExperience} showExperience={showExperience}/>
       </Suspense>
+      <Suspense fallback={<div>Loading Projects...</div>}>
       <Projects />
-      <Suspense fallback={<div>Loading Services...</div>}>
-      <Services  />
       </Suspense>
+      <Services/>
       <Contact />
     </div>
   )

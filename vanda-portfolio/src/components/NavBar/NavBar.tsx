@@ -52,7 +52,7 @@ export const NavBar = () : JSX.Element => {
                     <div className="navbar-left"> 
                     <Suspense fallback={<div>Loading...</div>}> 
                         <SplitText
-                            text="Vanda"
+                            text="Makena"
                             className="text-2xl font-semibold text-center"
                             delay={500}
                             animationFrom={{ opacity: 0, transform: 'translate3d(0,50px,0)' }}
@@ -66,14 +66,14 @@ export const NavBar = () : JSX.Element => {
                     </div>
                     <Navbar.Collapse id="basic-navbar-nav">
                         <Nav className="ms-auto">
-                            <Nav.Link href="#Skills" className={activeLink === "skills" ? "active navbar-link" : "navbar-link"} onClick={() => onUpdateActiveLink('skills')}>skills</Nav.Link>
-                            <Nav.Link href="#Projects" className={activeLink === "projects" ? "active navbar-link" : "navbar-link"} onClick={() => onUpdateActiveLink('projects')}>projects</Nav.Link>
-                            <Nav.Link href="#Services" className={activeLink === "services" ? "active navbar-link" : "navbar-link"} onClick={() => onUpdateActiveLink('services')}>services</Nav.Link>
+                            <Nav.Link href="#Skills" className={activeLink === "skills" ? "active navbar-link" : "navbar-link"} onClick={() => onUpdateActiveLink('skills')}>Skills</Nav.Link>
+                            <Nav.Link href="#Projects" className={activeLink === "projects" ? "active navbar-link" : "navbar-link"} onClick={() => onUpdateActiveLink('projects')}>Projects</Nav.Link>
+                            {/* <Nav.Link href="#Services" className={activeLink === "services" ? "active navbar-link" : "navbar-link"} onClick={() => onUpdateActiveLink('services')}>services</Nav.Link> */}
                         </Nav>
                         <span className="navbar-text">
                             <div className="social-icon">
-                                <a href="https://www.linkedin.com/in/john-mugo-699466112/" target='blank' rel='noopener noreferrer' title='LinkedIn link'><img src={navIcon1} alt="" /></a>
-                                <a className='gitIcon' href="https://github.com/vanda-mugo" target='blank' rel='noopener noreferrer' title='GitHub link'><img src={navIcon2} alt="" /></a>
+                                <a href="https://www.linkedin.com/in/makensandra/" target='blank' rel='noopener noreferrer' title='LinkedIn link'><img src={navIcon1} alt="" /></a>
+                                <a className='gitIcon' href="https://github.com/makenasandra" target='blank' rel='noopener noreferrer' title='GitHub link'><img src={navIcon2} alt="" /></a>
                             </div>
                             <button className="btn btn-primary" onClick={() => scrollToSection("Contact")}><span>Lets Connect</span></button>
                         </span>

@@ -23,7 +23,7 @@ export const Banner = ({ splashEffect, toggleEffect }: BannerProps): JSX.Element
     const [isDeleting, setIsDeleting] = useState<boolean>(false);
     const [text, setText] = useState<string>('');
     // initialise toRotate array with strings
-    const toRotate : string[] = ['Software Engineer','C++ Developer' , 'FullStack Developer', 'UI/UX Designer', 'Graphic Designer', "Vector illustrator" ];
+    const toRotate : string[] = ['Software Engineer','FullStack Developer'];
     // delta can range anywhere between 200 to 300, this is milliseconds 
     const [delta, setDelta] = useState(300 - Math.random() * 100);
     const period = 1500;
@@ -104,9 +104,9 @@ export const Banner = ({ splashEffect, toggleEffect }: BannerProps): JSX.Element
                         <TrackVisibility>
                             {({ isVisible  }) => 
                                 <div className={isVisible ? 'animate__animated animate__fadeIn' : ''}>    
-                                    <span className="tagline">Welcome to my Portfolio</span>
+                                    {/* <span className="tagline">Welcome to my Portfolio</span> */}
                                     <h1>{"Hi I'm "}<span className="devname" ><Suspense fallback={<div>Loading...</div>}><TrueFocus 
-                                                                                sentence="John Mugo"
+                                                                                sentence="Makena Sandra"
                                                                                 manualMode={false}
                                                                                 blurAmount={7}
                                                                                 borderColor="red"
